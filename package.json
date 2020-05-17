@@ -1,0 +1,12 @@
+{
+  "name": "chat-bot-backend",
+  "version": "0.0.1",
+  "description": "backend for the chatbot test",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {    
+    "start": "node --inspect ./src/index.js"
+  }
+}
